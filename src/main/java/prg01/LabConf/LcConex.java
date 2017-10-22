@@ -27,15 +27,21 @@ public class LcConex {
 			
 			// System.out.println("url " + url);
 			try {
-				conn = (Connection)DriverManager.getConnection(url, usuario, pwd);
-				if (conn != null){
-				//	System.out.println("Conecto a " + conn);
+			    Class.forName("com.mysql.jdbc.Driver");
+    				try {
+    					conn = (Connection)DriverManager.getConnection(url, usuario, pwd);
+    					if (conn != null){
+    					//	System.out.println("Conecto a " + conn);
+    					}
+				}
+				
+				catch (SQLException ex){
+					System.out.println("fallo la conexion " + conn);
 				}
 			}
-			
-			catch (SQLException ex){
-				System.out.println("fallo la conexion " + conn);
-			}
+			catch (ClassNotFoundException e) {
+                       	    System.out.println(e.getMessage());
+   			}
 
 		}
 	
