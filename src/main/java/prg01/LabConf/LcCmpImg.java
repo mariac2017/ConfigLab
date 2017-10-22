@@ -6,7 +6,7 @@ public class LcCmpImg {
 
 		public Integer imgCod;
 		public String  imgNom;
-		public Blob imgImg; 
+		public Blob    imgImg; 
 
 		// ********************* CODIGO ************
 		

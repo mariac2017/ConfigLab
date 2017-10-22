@@ -18,7 +18,7 @@ public class LcConex {
 	
 	private String usuario = "root";
 	private String pwd = "root";
-	private static String db= "db_laberinto";
+	private static String db= "db_labpregunta";
 	static String url="jdbc:mysql://localhost/" + db;
 	
 	private Connection conn=null;

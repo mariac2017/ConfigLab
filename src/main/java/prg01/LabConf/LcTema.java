@@ -1,8 +1,5 @@
 package prg01.LabConf;
 
-import java.awt.Checkbox;
-import javax.swing.JPanel;
-
 public class LcTema {
 
 		public Integer codTema;

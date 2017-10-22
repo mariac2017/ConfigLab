@@ -5,34 +5,45 @@ public class LcPregunta {
 		public Integer preTema;
 		public Integer preCod;
 		public String  prePre;
+		public String  preRsp;
 		
-		// Retorna tema
-		public Integer getpalaTema() {
+		// Retorna Tema
+		public Integer getpreTema() {
 			return preTema;
 		}
 
-		// Muestra tema
+		// Muestra Tema
 		public void setpreTema(Integer preTema) {
 			this.preTema = preTema;
 		}
 		
-		// Retorna Codigo Tema
+		// Retorna Codigo de Pregunta
 		public Integer getpreCod() {
 			return preCod;
 		}
 
-		// Muestra codigo 
+		// Muestra Codigo de Pregunta 
 		public void setpreCod(Integer preCod) {
 			this.preCod = preCod;
 		}
 		
-		// Retorna pregunta
+		// Retorna Pregunta
 		public String getprePre() {
 			return prePre;
 		}
 		
-		// Muestra pregunta	
+		// Muestra Pregunta	
 		public void setprePre(String prePre){
 			this.prePre = prePre;
+		}
+		
+		// Retorna Respuesta
+		public String getpreRsp() {
+			return preRsp;
+		}
+		
+		// Muestra Respuesta	
+		public void setpreRsp(String preRsp){
+			this.preRsp = preRsp;
 		}
 }
